@@ -1,0 +1,22 @@
+[project]
+name = "genuuat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jax==0.4.26",
+    "jaxlib==0.4.26",
+    "matplotlib>=3.10.3",
+    "optax==0.2.2",
+    "pennylane==0.35.1",
+    "scikit-learn>=1.7.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
