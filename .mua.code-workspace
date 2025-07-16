@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // Example: add workspace-specific settings here
+    "python.pythonPath": "/home/samonaco/dust/envs/genuuat/bin/python",
+    "editor.tabSize": 4
+  }
+}
