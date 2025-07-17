@@ -1,4 +1,5 @@
 # Multi-Universal Approximator
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16027822.svg)](https://doi.org/10.5281/zenodo.16027822)
 
 This repository implements a Multi-Universal Approximator using parameterized quantum circuits. The project explores classically-simulable, entanglement-free, quantum circuits as universal generative models for continuous multivariate distributions.
 
@@ -72,3 +73,29 @@ It is based on the following research papers:
 
 * Parameterized quantum circuits as universal generative models for continuous multivariate distributions. [Read the paper](https://arxiv.org/pdf/2402.09848)
 * One qubit as a Universal Approximant. [Read the paper](https://arxiv.org/pdf/2102.04032)
+
+# Citation
+If you use this software in your research or publications, **please cite** the following: 
+
+```
+@software{monaco_2025_16027822,
+  author       = {Monaco, Saverio and
+                  Slim, Jamal and
+                  Krücker, Dirk and
+                  Borras, Kerstin},
+  title        = {Multi-Universal-Approximator},
+  month        = jul,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.16027822},
+  url          = {https://doi.org/10.5281/zenodo.16027822},
+  swhid        = {swh:1:dir:f94c2fad8e2f8b4fbf98a993a504c147e4d00684
+                   ;origin=https://doi.org/10.5281/zenodo.16027821;vi
+                   sit=swh:1:snp:ffcaaeef88dbf3c5b7b155807d8d5a43f743
+                   7e6b;anchor=swh:1:rel:876569afb971342040497924feca
+                   8b9ba6491835;path=desyqml-Multi-Universal-
+                   Approximator-52207f4
+                  },
+}
+```
